@@ -1,0 +1,6 @@
+{
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "description": "A professional geospatial dashboard for tracking bicycle incidents in Milan, featuring interactive markers and detailed incident analytics."
+}
