@@ -1,0 +1,20 @@
+{
+  "feed_url": "https://your-agency.example/gtfs-rt/tripupdates.pb",
+  "static_gtfs_zip": "./gtfs_static.zip",
+  "timezone_utc_offset_hours": 1,
+  "poll_seconds": 20,
+  "request_timeout_seconds": 20,
+  "retry_attempts": 3,
+  "retry_backoff_seconds": 2,
+  "log_level": "INFO",
+  "time_windows": [
+    {"start": "07:00", "end": "09:30"},
+    {"start": "17:00", "end": "19:30"}
+  ],
+  "output": {
+    "mode": "sqlite",
+    "sqlite_path": "output/gtfs_observations.sqlite",
+    "observations_csv_path": "output/observations.csv",
+    "summary_csv_path": "output/period_summary.csv"
+  }
+}
